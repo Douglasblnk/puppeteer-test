@@ -1,0 +1,23 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglasblnk/selenium-test.git"
+  },
+  "author": "douglas blank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Douglasblnk/selenium-test/issues"
+  },
+  "homepage": "https://github.com/Douglasblnk/selenium-test#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
