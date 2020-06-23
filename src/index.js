@@ -1,10 +1,8 @@
-const { login } = require('./modules/login')
+const webDriver = require('./modules.js');
 
-const run = () => {
-  // console.log('process.e :>> ', process.env['PATH']);
-  console.log('======= START SELENIUM SMART-SOLUTION AUTOMATION =======');
-
-  await login();
-}
-
-run();
+(async () => {
+  await webDriver.init();
+  await webDriver.login();
+  await webDriver.navigateCorrectiveOrder();
+  await webDriver.createCorrectiveOrder();
+})()

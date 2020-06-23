@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Douglasblnk/selenium-test#readme",
   "dependencies": {
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "@types/puppeteer": "^3.0.0",
+    "moment": "^2.27.0",
+    "puppeteer": "^4.0.0"
   }
 }
